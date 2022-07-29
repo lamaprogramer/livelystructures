@@ -1,0 +1,86 @@
+{
+  "name": "livelystructures:small_boulder/start_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "livelystructures:small_boulder1",
+
+        "processors": "livelystructures:randomize_stone",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "livelystructures:small_boulder2",
+
+        "processors": "livelystructures:randomize_stone",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "livelystructures:small_boulder3",
+
+        "processors": "livelystructures:randomize_stone",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "livelystructures:large_boulder1",
+
+        "processors": "livelystructures:randomize_stone_ore",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "livelystructures:large_boulder2",
+
+        "processors": "livelystructures:randomize_stone_ore",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "livelystructures:large_boulder3",
+
+        "processors": "livelystructures:randomize_stone_ore",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
